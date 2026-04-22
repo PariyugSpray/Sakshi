@@ -131,7 +131,7 @@
     <div class="heart"></div>
 
     <form id="login-form">
-        <h2>Enter Your friend Name</h2>
+        <h2>Enter Your Friend Name</h2>
         <input type="text" id="friend-name" placeholder="Your Name">
         <button id="submit-btn">Login</button>
     </form>
@@ -140,7 +140,7 @@
         document.getElementById('submit-btn').addEventListener('click', function(event) {
             event.preventDefault();
             const nameInput = document.getElementById('friend-name').value.trim();
-            if (nameInput.toLowerCase() === "sanchi") {
+            if (nameInput.toLowerCase() === "sakshi") {
                 alert("Welcome, My friend ❤️");
                 window.location.href = "main.html"; // Redirect to another page
             } else {
